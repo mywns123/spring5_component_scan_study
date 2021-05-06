@@ -3,7 +3,8 @@ package spring5_component_scan_study.spring;
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.stereotype.Component;
+@Component
 public class MemberLIstPrinter {
 	@Autowired
 	private MemberDao memberDao;
